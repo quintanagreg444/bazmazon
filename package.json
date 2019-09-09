@@ -2,7 +2,7 @@
   "name": "bazmazon",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bamazon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/quintanagreg444/bazmazon/issues"
   },
-  "homepage": "https://github.com/quintanagreg444/bazmazon#readme",
-  "dependencies": {
-    "mysql": "^2.17.1"
-  }
+  "homepage": "https://github.com/quintanagreg444/bazmazon#readme"
 }
