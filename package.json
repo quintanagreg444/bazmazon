@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/quintanagreg444/bazmazon/issues"
   },
-  "homepage": "https://github.com/quintanagreg444/bazmazon#readme"
+  "homepage": "https://github.com/quintanagreg444/bazmazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1"
+  }
 }

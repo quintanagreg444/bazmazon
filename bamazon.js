@@ -34,15 +34,15 @@ function displayItems(){
          type:"input",
          message:"enterquantity"
     }]) .then(function(getValue){
-  // console.log(getValue.productid);
-  // if (getValue.productid==="q"){
-  //   connection.end();
+   console.log(getValue.productid);
+   if (getValue.productid==="q"){
+   connection.end();
   
-  // }
-  // else {
-  //   //check array for quantity is ther for specifi id , if no do not place order 
+   }
+  else {
+     //check array for quantity is ther for specifi id , if no do not place order 
   //   
-  //   placeOrder(getValue.productid,getValue.quantity)
+     placeOrder(getValue.productid,getValue.quantity)
   //   })
   // })
   // }
